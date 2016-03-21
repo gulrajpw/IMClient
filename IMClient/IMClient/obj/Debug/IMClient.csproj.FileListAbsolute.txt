@@ -1,0 +1,10 @@
+c:\users\patrick\documents\visual studio 2015\Projects\IMClient\IMClient\bin\Debug\IMClient.exe.config
+c:\users\patrick\documents\visual studio 2015\Projects\IMClient\IMClient\bin\Debug\IMClient.exe
+c:\users\patrick\documents\visual studio 2015\Projects\IMClient\IMClient\bin\Debug\IMClient.pdb
+c:\users\patrick\documents\visual studio 2015\Projects\IMClient\IMClient\obj\Debug\IMClient.csprojResolveAssemblyReference.cache
+c:\users\patrick\documents\visual studio 2015\Projects\IMClient\IMClient\obj\Debug\IMClient.Form1.resources
+c:\users\patrick\documents\visual studio 2015\Projects\IMClient\IMClient\obj\Debug\IMClient.Properties.Resources.resources
+c:\users\patrick\documents\visual studio 2015\Projects\IMClient\IMClient\obj\Debug\IMClient.csproj.GenerateResource.Cache
+c:\users\patrick\documents\visual studio 2015\Projects\IMClient\IMClient\obj\Debug\IMClient.exe
+c:\users\patrick\documents\visual studio 2015\Projects\IMClient\IMClient\obj\Debug\IMClient.pdb
+c:\users\patrick\documents\visual studio 2015\Projects\IMClient\IMClient\obj\Debug\IMClient.Form2.resources
