@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using GlobalVariables;
+
 
 namespace IMClient
 {
@@ -19,6 +21,15 @@ namespace IMClient
 
         private void label2_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+            //Assign the username to a global string. 
+            GlobalVariables.Global.SetUserName(usrNameBox.Text);
+
 
         }
     }

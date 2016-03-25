@@ -28,37 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
+            this.sender = new System.Windows.Forms.Button();
+            this.typeBox = new System.Windows.Forms.RichTextBox();
             this.button4 = new System.Windows.Forms.Button();
+            this.chatBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // richTextBox3
+            // sender
             // 
-            this.richTextBox3.Location = new System.Drawing.Point(12, 12);
-            this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.Size = new System.Drawing.Size(299, 347);
-            this.richTextBox3.TabIndex = 0;
-            this.richTextBox3.Text = "";
+            this.sender.Location = new System.Drawing.Point(334, 395);
+            this.sender.Name = "sender";
+            this.sender.Size = new System.Drawing.Size(75, 23);
+            this.sender.TabIndex = 1;
+            this.sender.Text = "Send";
+            this.sender.UseVisualStyleBackColor = true;
+            this.sender.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button3
+            // typeBox
             // 
-            this.button3.Location = new System.Drawing.Point(334, 395);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "Send";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // richTextBox4
-            // 
-            this.richTextBox4.Location = new System.Drawing.Point(12, 385);
-            this.richTextBox4.Name = "richTextBox4";
-            this.richTextBox4.Size = new System.Drawing.Size(299, 33);
-            this.richTextBox4.TabIndex = 2;
-            this.richTextBox4.Text = "";
+            this.typeBox.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.typeBox.Location = new System.Drawing.Point(12, 385);
+            this.typeBox.Name = "typeBox";
+            this.typeBox.Size = new System.Drawing.Size(299, 33);
+            this.typeBox.TabIndex = 2;
+            this.typeBox.Text = "";
             // 
             // button4
             // 
@@ -70,16 +63,27 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // chatBox
+            // 
+            this.chatBox.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.chatBox.Location = new System.Drawing.Point(12, 3);
+            this.chatBox.Multiline = true;
+            this.chatBox.Name = "chatBox";
+            this.chatBox.Size = new System.Drawing.Size(299, 367);
+            this.chatBox.TabIndex = 4;
+            // 
             // Form1
             // 
+            this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.ClientSize = new System.Drawing.Size(421, 447);
+            this.Controls.Add(this.chatBox);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.richTextBox4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.richTextBox3);
+            this.Controls.Add(this.typeBox);
+            this.Controls.Add(this.sender);
             this.Name = "Form1";
             this.Text = "Instant Message Client";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -89,10 +93,10 @@
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.RichTextBox richTextBox2;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.RichTextBox richTextBox3;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.RichTextBox richTextBox4;
+        private System.Windows.Forms.Button sender;
+        private System.Windows.Forms.RichTextBox typeBox;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TextBox chatBox;
     }
 }
 

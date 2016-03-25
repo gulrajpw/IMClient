@@ -1,0 +1,585 @@
+System.Net.Sockets Verbose: 0 : [172148] Socket#22599820::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [172148] Exiting Socket#22599820::Socket() 
+System.Net.Sockets Verbose: 0 : [172148] Socket#22599820::Connect(192.168.1.103:9121#1728154465)
+System.Net.Sockets Error: 0 : [172148] Socket#22599820::UpdateStatusAfterSocketError() - ConnectionRefused
+System.Net.Sockets Error: 0 : [172148] Exception in Socket#22599820::Connect - No connection could be made because the target machine actively refused it 192.168.1.103:9121.
+System.Net Error: 0 : [172148] Exception in AppDomain#35320229::UnhandledExceptionHandler - No connection could be made because the target machine actively refused it 192.168.1.103:9121.
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at IMClient.Form1.send_message() in C:\Users\Patrick\documents\visual studio 2015\Projects\IMClient\IMClient\Form1.cs:line 65
+   at IMClient.Form1.button3_Click(Object sender, EventArgs e) in C:\Users\Patrick\documents\visual studio 2015\Projects\IMClient\IMClient\Form1.cs:line 114
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at IMClient.Program.Main() in C:\Users\Patrick\documents\visual studio 2015\Projects\IMClient\IMClient\Program.cs:line 19
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+System.Net.Sockets Error: 0 : [172148] Socket#22599820::UpdateStatusAfterSocketError() - ProtocolOption
+System.Net.Sockets Error: 0 : [172148] Exception in Socket#22599820::GetSocketOption - An unknown, invalid, or unsupported option or level was specified in a getsockopt or setsockopt call.
+System.Net.Sockets Error: 0 : [172148] Socket#22599820::UpdateStatusAfterSocketError() - InvalidArgument
+System.Net.Sockets Error: 0 : [172148] Exception in Socket#22599820::GetSocketOption - An invalid argument was supplied.
+System.Net.Sockets Error: 0 : [172148] Socket#22599820::UpdateStatusAfterSocketError() - ProtocolOption
+System.Net.Sockets Error: 0 : [172148] Exception in Socket#22599820::GetSocketOption - An unknown, invalid, or unsupported option or level was specified in a getsockopt or setsockopt call.
+System.Net.Sockets Error: 0 : [172148] Socket#22599820::UpdateStatusAfterSocketError() - InvalidArgument
+System.Net.Sockets Error: 0 : [172148] Exception in Socket#22599820::GetSocketOption - An invalid argument was supplied.
+System.Net.Sockets Verbose: 0 : [172148] Socket#30887001::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [172148] Exiting Socket#30887001::Socket() 
+System.Net.Sockets Verbose: 0 : [173184] DNS::GetHostEntry(127.0.0.1)
+System.Net.Sockets Verbose: 0 : [173184] Exiting DNS::GetHostEntry() 	-> IPHostEntry#43927528
+System.Net.Sockets Verbose: 0 : [173184] TcpListener#30581704::TcpListener(fe80::15d7:1ad8:a551:27a5%5#490671353)
+System.Net.Sockets Verbose: 0 : [173184] Socket#33999400::Socket(AddressFamily#23)
+System.Net.Sockets Verbose: 0 : [173184] Exiting Socket#33999400::Socket() 
+System.Net.Sockets Verbose: 0 : [173184] Exiting TcpListener#30581704::TcpListener() 
+System.Net.Sockets Verbose: 0 : [173184] TcpListener#30581704::Start()
+System.Net.Sockets Verbose: 0 : [173184] Socket#33999400::Bind([fe80::15d7:1ad8:a551:27a5%5]:9121#490680152)
+System.Net.Sockets Verbose: 0 : [173184] Exiting Socket#33999400::Bind() 
+System.Net.Sockets Verbose: 0 : [173184] Socket#33999400::Listen(Int32#2147483647)
+System.Net.Sockets Verbose: 0 : [173184] Exiting Socket#33999400::Listen() 
+System.Net.Sockets Verbose: 0 : [173184] Exiting TcpListener#30581704::Start() 
+System.Net.Sockets Verbose: 0 : [173184] TcpListener#30581704::AcceptTcpClient()
+System.Net.Sockets Verbose: 0 : [173184] Socket#33999400::Accept()
+System.Net.Sockets Verbose: 0 : [173164] Socket#57352375::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [173164] Exiting Socket#57352375::Socket() 
+System.Net.Sockets Verbose: 0 : [173164] Socket#57352375::Connect(127.0.0.1:9121#16786398)
+System.Net.Sockets Error: 0 : [173164] Socket#57352375::UpdateStatusAfterSocketError() - ConnectionRefused
+System.Net.Sockets Error: 0 : [173164] Exception in Socket#57352375::Connect - No connection could be made because the target machine actively refused it 127.0.0.1:9121.
+System.Net Error: 0 : [173164] Exception in AppDomain#12549444::UnhandledExceptionHandler - No connection could be made because the target machine actively refused it 127.0.0.1:9121.
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at IMClient.Form1.send_message() in C:\Users\Patrick\documents\visual studio 2015\Projects\IMClient\IMClient\Form1.cs:line 89
+   at IMClient.Form1.button3_Click(Object sender, EventArgs e) in C:\Users\Patrick\documents\visual studio 2015\Projects\IMClient\IMClient\Form1.cs:line 122
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   at System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at IMClient.Program.Main() in C:\Users\Patrick\documents\visual studio 2015\Projects\IMClient\IMClient\Program.cs:line 19
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+System.Net.Sockets Verbose: 0 : [173148] DNS::GetHostEntry(127.0.0.1)
+System.Net.Sockets Verbose: 0 : [173148] Exiting DNS::GetHostEntry() 	-> IPHostEntry#45410999
+System.Net.Sockets Verbose: 0 : [150288] TcpListener#45410999::TcpListener(127.0.0.1#16777343)
+System.Net.Sockets Verbose: 0 : [150288] Socket#49911653::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [150288] Exiting Socket#49911653::Socket() 
+System.Net.Sockets Verbose: 0 : [150288] Exiting TcpListener#45410999::TcpListener() 
+System.Net.Sockets Verbose: 0 : [150288] TcpListener#45410999::Start()
+System.Net.Sockets Verbose: 0 : [150288] Socket#49911653::Bind(127.0.0.1:9121#16786398)
+System.Net.Sockets Verbose: 0 : [150288] Exiting Socket#49911653::Bind() 
+System.Net.Sockets Verbose: 0 : [150288] Socket#49911653::Listen(Int32#2147483647)
+System.Net.Sockets Verbose: 0 : [150288] Exiting Socket#49911653::Listen() 
+System.Net.Sockets Verbose: 0 : [150288] Exiting TcpListener#45410999::Start() 
+System.Net.Sockets Verbose: 0 : [150288] TcpListener#45410999::AcceptTcpClient()
+System.Net.Sockets Verbose: 0 : [150288] Socket#49911653::Accept()
+System.Net.Sockets Verbose: 0 : [128076] Socket#64867032::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [128076] Exiting Socket#64867032::Socket() 
+System.Net.Sockets Verbose: 0 : [128076] Socket#64867032::Connect(127.0.0.1:9121#16786398)
+System.Net.Sockets Information: 0 : [128076] Socket#64867032 - Created connection from 127.0.0.1:64578 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [150288] Socket#33111870::Socket()
+System.Net.Sockets Verbose: 0 : [150288] Exiting Socket#33111870::Socket() 
+System.Net.Sockets Information: 0 : [150288] Socket#33111870 - Accepted connection from 127.0.0.1:64578 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [150288] Exiting Socket#49911653::Accept() 	-> Socket#33111870
+System.Net.Sockets Verbose: 0 : [150288] TcpClient#15409429::TcpClient(Socket#33111870)
+System.Net.Sockets Verbose: 0 : [150288] Exiting TcpClient#15409429::TcpClient() 
+System.Net.Sockets Verbose: 0 : [150288] Exiting TcpListener#45410999::AcceptTcpClient() 	-> TcpClient#15409429
+System.Net.Sockets Verbose: 0 : [128076] Exiting Socket#64867032::Connect() 
+System.Net.Sockets Verbose: 0 : [150288] TcpClient#15409429::GetStream()
+System.Net.Sockets Verbose: 0 : [128076] Socket#64867032::Send()
+System.Net.Sockets Verbose: 0 : [128076] Data from Socket#64867032::Send
+System.Net.Sockets Verbose: 0 : [150288] Exiting TcpClient#15409429::GetStream() 	-> NetworkStream#27806816
+System.Net.Sockets Verbose: 0 : [150288] Socket#33111870::Receive()
+System.Net.Sockets Verbose: 0 : [150288] Data from Socket#33111870::Receive
+System.Net.Sockets Verbose: 0 : [128076] 00000000 : 7A 6F 64 69 61 63 39 34-39 3A 20 74 68 69 73 0A : zodiac949: this.
+System.Net.Sockets Verbose: 0 : [128076] Exiting Socket#64867032::Send() 	-> Int32#16
+System.Net.Sockets Verbose: 0 : [150288] 00000000 : 7A 6F 64 69 61 63 39 34-39 3A 20 74 68 69 73 0A : zodiac949: this.
+System.Net.Sockets Verbose: 0 : [150288] Exiting Socket#33111870::Receive() 	-> Int32#16
+System.Net Error: 0 : [150288] Exception in AppDomain#65934242::UnhandledExceptionHandler - Cross-thread operation not valid: Control 'chatBox' accessed from a thread other than the thread it was created on..
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at IMClient.Form1.listener() in C:\Users\Patrick\documents\visual studio 2015\Projects\IMClient\IMClient\Form1.cs:line 59
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+System.Net.Sockets Verbose: 0 : [157448] TcpListener#30923613::TcpListener(127.0.0.1#16777343)
+System.Net.Sockets Verbose: 0 : [157448] Socket#49385318::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [157448] Exiting Socket#49385318::Socket() 
+System.Net.Sockets Verbose: 0 : [157448] Exiting TcpListener#30923613::TcpListener() 
+System.Net.Sockets Verbose: 0 : [157448] TcpListener#30923613::Start()
+System.Net.Sockets Verbose: 0 : [157448] Socket#49385318::Bind(127.0.0.1:9121#16786398)
+System.Net.Sockets Verbose: 0 : [157448] Exiting Socket#49385318::Bind() 
+System.Net.Sockets Verbose: 0 : [157448] Socket#49385318::Listen(Int32#2147483647)
+System.Net.Sockets Verbose: 0 : [157448] Exiting Socket#49385318::Listen() 
+System.Net.Sockets Verbose: 0 : [157448] Exiting TcpListener#30923613::Start() 
+System.Net.Sockets Verbose: 0 : [157448] TcpListener#30923613::AcceptTcpClient()
+System.Net.Sockets Verbose: 0 : [157448] Socket#49385318::Accept()
+System.Net.Sockets Verbose: 0 : [174024] Socket#64923656::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [174024] Exiting Socket#64923656::Socket() 
+System.Net.Sockets Verbose: 0 : [174024] Socket#64923656::Connect(127.0.0.1:9121#16786398)
+System.Net.Sockets Verbose: 0 : [157448] Socket#7746814::Socket()
+System.Net.Sockets Verbose: 0 : [157448] Exiting Socket#7746814::Socket() 
+System.Net.Sockets Information: 0 : [174024] Socket#64923656 - Created connection from 127.0.0.1:64724 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [174024] Exiting Socket#64923656::Connect() 
+System.Net.Sockets Verbose: 0 : [174024] Socket#64923656::Send()
+System.Net.Sockets Verbose: 0 : [174024] Data from Socket#64923656::Send
+System.Net.Sockets Verbose: 0 : [174024] 00000000 : 7A 6F 64 69 61 63 39 34-39 3A 20 74 68 69 73 73 : zodiac949: thiss
+System.Net.Sockets Verbose: 0 : [174024] 00000010 : 73 73 73 73 0A                                  : ssss.
+System.Net.Sockets Verbose: 0 : [174024] Exiting Socket#64923656::Send() 	-> Int32#21
+System.Net.Sockets Information: 0 : [157448] Socket#7746814 - Accepted connection from 127.0.0.1:64724 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [157448] Exiting Socket#49385318::Accept() 	-> Socket#7746814
+System.Net.Sockets Verbose: 0 : [157448] TcpClient#13062350::TcpClient(Socket#7746814)
+System.Net.Sockets Verbose: 0 : [157448] Exiting TcpClient#13062350::TcpClient() 
+System.Net.Sockets Verbose: 0 : [157448] Exiting TcpListener#30923613::AcceptTcpClient() 	-> TcpClient#13062350
+System.Net.Sockets Verbose: 0 : [157448] TcpClient#13062350::GetStream()
+System.Net.Sockets Verbose: 0 : [157448] Exiting TcpClient#13062350::GetStream() 	-> NetworkStream#50934842
+System.Net.Sockets Verbose: 0 : [157448] Socket#7746814::Receive()
+System.Net.Sockets Verbose: 0 : [157448] Data from Socket#7746814::Receive
+System.Net.Sockets Verbose: 0 : [157448] 00000000 : 7A 6F 64 69 61 63 39 34-39 3A 20 74 68 69 73 73 : zodiac949: thiss
+System.Net.Sockets Verbose: 0 : [157448] 00000010 : 73 73 73 73 0A                                  : ssss.
+System.Net.Sockets Verbose: 0 : [157448] Exiting Socket#7746814::Receive() 	-> Int32#21
+System.Net.Sockets Verbose: 0 : [176284] TcpListener#30923613::TcpListener(127.0.0.1#16777343)
+System.Net.Sockets Verbose: 0 : [176284] Socket#49385318::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [176284] Exiting Socket#49385318::Socket() 
+System.Net.Sockets Verbose: 0 : [176284] Exiting TcpListener#30923613::TcpListener() 
+System.Net.Sockets Verbose: 0 : [176284] TcpListener#30923613::Start()
+System.Net.Sockets Verbose: 0 : [176284] Socket#49385318::Bind(127.0.0.1:9121#16786398)
+System.Net.Sockets Verbose: 0 : [176284] Exiting Socket#49385318::Bind() 
+System.Net.Sockets Verbose: 0 : [176284] Socket#49385318::Listen(Int32#2147483647)
+System.Net.Sockets Verbose: 0 : [176284] Exiting Socket#49385318::Listen() 
+System.Net.Sockets Verbose: 0 : [176284] Exiting TcpListener#30923613::Start() 
+System.Net.Sockets Verbose: 0 : [176284] TcpListener#30923613::AcceptTcpClient()
+System.Net.Sockets Verbose: 0 : [176284] Socket#49385318::Accept()
+System.Net.Sockets Verbose: 0 : [176276] Socket#64923656::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [176276] Exiting Socket#64923656::Socket() 
+System.Net.Sockets Verbose: 0 : [176276] Socket#64923656::Connect(127.0.0.1:9121#16786398)
+System.Net.Sockets Verbose: 0 : [176284] Socket#7746814::Socket()
+System.Net.Sockets Verbose: 0 : [176284] Exiting Socket#7746814::Socket() 
+System.Net.Sockets Information: 0 : [176276] Socket#64923656 - Created connection from 127.0.0.1:64821 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [176276] Exiting Socket#64923656::Connect() 
+System.Net.Sockets Information: 0 : [176284] Socket#7746814 - Accepted connection from 127.0.0.1:64821 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [176284] Exiting Socket#49385318::Accept() 	-> Socket#7746814
+System.Net.Sockets Verbose: 0 : [176284] TcpClient#13062350::TcpClient(Socket#7746814)
+System.Net.Sockets Verbose: 0 : [176284] Exiting TcpClient#13062350::TcpClient() 
+System.Net.Sockets Verbose: 0 : [176284] Exiting TcpListener#30923613::AcceptTcpClient() 	-> TcpClient#13062350
+System.Net.Sockets Verbose: 0 : [176276] Socket#64923656::Send()
+System.Net.Sockets Verbose: 0 : [176276] Data from Socket#64923656::Send
+System.Net.Sockets Verbose: 0 : [176284] TcpClient#13062350::GetStream()
+System.Net.Sockets Verbose: 0 : [176284] Exiting TcpClient#13062350::GetStream() 	-> NetworkStream#50934842
+System.Net.Sockets Verbose: 0 : [176284] Socket#7746814::Receive()
+System.Net.Sockets Verbose: 0 : [176284] Data from Socket#7746814::Receive
+System.Net.Sockets Verbose: 0 : [176284] 00000000 : 74 68 69 73 73 73 3A 20-64 73 66 64 73 66 0A    : thisss: dsfdsf.
+System.Net.Sockets Verbose: 0 : [176284] Exiting Socket#7746814::Receive() 	-> Int32#15
+System.Net.Sockets Verbose: 0 : [177200] TcpListener#57566403::TcpListener(127.0.0.1#16777343)
+System.Net.Sockets Verbose: 0 : [177200] Socket#49582139::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [177200] Exiting Socket#49582139::Socket() 
+System.Net.Sockets Verbose: 0 : [177200] Exiting TcpListener#57566403::TcpListener() 
+System.Net.Sockets Verbose: 0 : [177200] TcpListener#57566403::Start()
+System.Net.Sockets Verbose: 0 : [177200] Socket#49582139::Bind(127.0.0.1:9121#16786398)
+System.Net.Sockets Verbose: 0 : [177200] Exiting Socket#49582139::Bind() 
+System.Net.Sockets Verbose: 0 : [177200] Socket#49582139::Listen(Int32#2147483647)
+System.Net.Sockets Verbose: 0 : [177200] Exiting Socket#49582139::Listen() 
+System.Net.Sockets Verbose: 0 : [177200] Exiting TcpListener#57566403::Start() 
+System.Net.Sockets Verbose: 0 : [177200] TcpListener#57566403::AcceptTcpClient()
+System.Net.Sockets Verbose: 0 : [177200] Socket#49582139::Accept()
+System.Net.Sockets Verbose: 0 : [177172] Socket#41622463::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [177172] Exiting Socket#41622463::Socket() 
+System.Net.Sockets Verbose: 0 : [177172] Socket#41622463::Connect(127.0.0.1:9121#16786398)
+System.Net.Sockets Verbose: 0 : [177200] Socket#22599820::Socket()
+System.Net.Sockets Verbose: 0 : [177200] Exiting Socket#22599820::Socket() 
+System.Net.Sockets Information: 0 : [177172] Socket#41622463 - Created connection from 127.0.0.1:65036 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [177172] Exiting Socket#41622463::Connect() 
+System.Net.Sockets Verbose: 0 : [177172] Socket#41622463::Send()
+System.Net.Sockets Verbose: 0 : [177172] Data from Socket#41622463::Send
+System.Net.Sockets Verbose: 0 : [177172] 00000000 : 7A 6F 64 69 61 63 39 34-39 3A 20 74 68 69 73 73 : zodiac949: thiss
+System.Net.Sockets Verbose: 0 : [177172] 00000010 : 0A                                              : .
+System.Net.Sockets Verbose: 0 : [177172] Exiting Socket#41622463::Send() 	-> Int32#17
+System.Net.Sockets Information: 0 : [177200] Socket#22599820 - Accepted connection from 127.0.0.1:65036 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [177200] Exiting Socket#49582139::Accept() 	-> Socket#22599820
+System.Net.Sockets Verbose: 0 : [177200] TcpClient#30887001::TcpClient(Socket#22599820)
+System.Net.Sockets Verbose: 0 : [177200] Exiting TcpClient#30887001::TcpClient() 
+System.Net.Sockets Verbose: 0 : [177200] Exiting TcpListener#57566403::AcceptTcpClient() 	-> TcpClient#30887001
+System.Net.Sockets Verbose: 0 : [177200] TcpClient#30887001::GetStream()
+System.Net.Sockets Verbose: 0 : [177200] Exiting TcpClient#30887001::GetStream() 	-> NetworkStream#1968367
+System.Net.Sockets Verbose: 0 : [177200] Socket#22599820::Receive()
+System.Net.Sockets Verbose: 0 : [177200] Data from Socket#22599820::Receive
+System.Net.Sockets Verbose: 0 : [177200] 00000000 : 7A 6F 64 69 61 63 39 34-39 3A 20 74 68 69 73 73 : zodiac949: thiss
+System.Net.Sockets Verbose: 0 : [177200] 00000010 : 0A                                              : .
+System.Net.Sockets Verbose: 0 : [177200] Exiting Socket#22599820::Receive() 	-> Int32#17
+System.Net.Sockets Verbose: 0 : [167916] TcpListener#45410999::TcpListener(127.0.0.1#16777343)
+System.Net.Sockets Verbose: 0 : [167916] Socket#49911653::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [167916] Exiting Socket#49911653::Socket() 
+System.Net.Sockets Verbose: 0 : [167916] Exiting TcpListener#45410999::TcpListener() 
+System.Net.Sockets Verbose: 0 : [167916] TcpListener#45410999::Start()
+System.Net.Sockets Verbose: 0 : [167916] Socket#49911653::Bind(127.0.0.1:9121#16786398)
+System.Net.Sockets Verbose: 0 : [167916] Exiting Socket#49911653::Bind() 
+System.Net.Sockets Verbose: 0 : [167916] Socket#49911653::Listen(Int32#2147483647)
+System.Net.Sockets Verbose: 0 : [167916] Exiting Socket#49911653::Listen() 
+System.Net.Sockets Verbose: 0 : [167916] Exiting TcpListener#45410999::Start() 
+System.Net.Sockets Verbose: 0 : [167916] TcpListener#45410999::AcceptTcpClient()
+System.Net.Sockets Verbose: 0 : [167916] Socket#49911653::Accept()
+System.Net.Sockets Verbose: 0 : [176256] Socket#64867032::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [176256] Exiting Socket#64867032::Socket() 
+System.Net.Sockets Verbose: 0 : [176256] Socket#64867032::Connect(127.0.0.1:9121#16786398)
+System.Net.Sockets Verbose: 0 : [167916] Socket#33111870::Socket()
+System.Net.Sockets Verbose: 0 : [167916] Exiting Socket#33111870::Socket() 
+System.Net.Sockets Information: 0 : [176256] Socket#64867032 - Created connection from 127.0.0.1:65136 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [176256] Exiting Socket#64867032::Connect() 
+System.Net.Sockets Verbose: 0 : [176256] Socket#64867032::Send()
+System.Net.Sockets Verbose: 0 : [176256] Data from Socket#64867032::Send
+System.Net.Sockets Verbose: 0 : [176256] 00000000 : 7A 6F 64 69 61 63 39 34-39 3A 20 73 64 6B 6A 66 : zodiac949: sdkjf
+System.Net.Sockets Verbose: 0 : [176256] 00000010 : 68 64 73 6A 6B 66 0A                            : hdsjkf.
+System.Net.Sockets Verbose: 0 : [176256] Exiting Socket#64867032::Send() 	-> Int32#23
+System.Net.Sockets Information: 0 : [167916] Socket#33111870 - Accepted connection from 127.0.0.1:65136 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [167916] Exiting Socket#49911653::Accept() 	-> Socket#33111870
+System.Net.Sockets Verbose: 0 : [167916] TcpClient#15409429::TcpClient(Socket#33111870)
+System.Net.Sockets Verbose: 0 : [167916] Exiting TcpClient#15409429::TcpClient() 
+System.Net.Sockets Verbose: 0 : [167916] Exiting TcpListener#45410999::AcceptTcpClient() 	-> TcpClient#15409429
+System.Net.Sockets Verbose: 0 : [167916] TcpClient#15409429::GetStream()
+System.Net.Sockets Verbose: 0 : [167916] Exiting TcpClient#15409429::GetStream() 	-> NetworkStream#27806816
+System.Net.Sockets Verbose: 0 : [167916] Socket#33111870::Receive()
+System.Net.Sockets Verbose: 0 : [167916] Data from Socket#33111870::Receive
+System.Net.Sockets Verbose: 0 : [167916] 00000000 : 7A 6F 64 69 61 63 39 34-39 3A 20 73 64 6B 6A 66 : zodiac949: sdkjf
+System.Net.Sockets Verbose: 0 : [167916] 00000010 : 68 64 73 6A 6B 66 0A                            : hdsjkf.
+System.Net.Sockets Verbose: 0 : [167916] Exiting Socket#33111870::Receive() 	-> Int32#23
+System.Net.Sockets Verbose: 0 : [178516] TcpListener#45410999::TcpListener(127.0.0.1#16777343)
+System.Net.Sockets Verbose: 0 : [178516] Socket#49911653::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [178516] Exiting Socket#49911653::Socket() 
+System.Net.Sockets Verbose: 0 : [178516] Exiting TcpListener#45410999::TcpListener() 
+System.Net.Sockets Verbose: 0 : [178516] TcpListener#45410999::Start()
+System.Net.Sockets Verbose: 0 : [178516] Socket#49911653::Bind(127.0.0.1:9121#16786398)
+System.Net.Sockets Verbose: 0 : [178516] Exiting Socket#49911653::Bind() 
+System.Net.Sockets Verbose: 0 : [178516] Socket#49911653::Listen(Int32#2147483647)
+System.Net.Sockets Verbose: 0 : [178516] Exiting Socket#49911653::Listen() 
+System.Net.Sockets Verbose: 0 : [178516] Exiting TcpListener#45410999::Start() 
+System.Net.Sockets Verbose: 0 : [178516] TcpListener#45410999::AcceptTcpClient()
+System.Net.Sockets Verbose: 0 : [178516] Socket#49911653::Accept()
+System.Net.Sockets Verbose: 0 : [178756] Socket#64867032::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [178756] Exiting Socket#64867032::Socket() 
+System.Net.Sockets Verbose: 0 : [178756] Socket#64867032::Connect(127.0.0.1:9121#16786398)
+System.Net.Sockets Verbose: 0 : [178516] Socket#33111870::Socket()
+System.Net.Sockets Verbose: 0 : [178516] Exiting Socket#33111870::Socket() 
+System.Net.Sockets Information: 0 : [178756] Socket#64867032 - Created connection from 127.0.0.1:65313 to 127.0.0.1:9121.
+System.Net.Sockets Information: 0 : [178516] Socket#33111870 - Accepted connection from 127.0.0.1:65313 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [178516] Exiting Socket#49911653::Accept() 	-> Socket#33111870
+System.Net.Sockets Verbose: 0 : [178516] TcpClient#15409429::TcpClient(Socket#33111870)
+System.Net.Sockets Verbose: 0 : [178516] Exiting TcpClient#15409429::TcpClient() 
+System.Net.Sockets Verbose: 0 : [178516] Exiting TcpListener#45410999::AcceptTcpClient() 	-> TcpClient#15409429
+System.Net.Sockets Verbose: 0 : [178516] TcpClient#15409429::GetStream()
+System.Net.Sockets Verbose: 0 : [178516] Exiting TcpClient#15409429::GetStream() 	-> NetworkStream#27806816
+System.Net.Sockets Verbose: 0 : [178516] Socket#33111870::Receive()
+System.Net.Sockets Verbose: 0 : [178756] Exiting Socket#64867032::Connect() 
+System.Net.Sockets Verbose: 0 : [178756] Socket#64867032::Send()
+System.Net.Sockets Verbose: 0 : [178756] Data from Socket#64867032::Send
+System.Net.Sockets Verbose: 0 : [178516] Data from Socket#33111870::Receive
+System.Net.Sockets Verbose: 0 : [178516] 00000000 : 7A 6F 64 69 61 63 39 34-39 3A 20 74 68 69 73 20 : zodiac949: this 
+System.Net.Sockets Verbose: 0 : [178516] 00000010 : 69 73 20 61 20 74 65 73-74 0A                   : is a test.
+System.Net.Sockets Verbose: 0 : [178516] Exiting Socket#33111870::Receive() 	-> Int32#26
+System.Net.Sockets Verbose: 0 : [170748] TcpListener#45410999::TcpListener(127.0.0.1#16777343)
+System.Net.Sockets Verbose: 0 : [170748] Socket#49911653::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [170748] Exiting Socket#49911653::Socket() 
+System.Net.Sockets Verbose: 0 : [170748] Exiting TcpListener#45410999::TcpListener() 
+System.Net.Sockets Verbose: 0 : [170748] TcpListener#45410999::Start()
+System.Net.Sockets Verbose: 0 : [170748] Socket#49911653::Bind(127.0.0.1:9121#16786398)
+System.Net.Sockets Verbose: 0 : [170748] Exiting Socket#49911653::Bind() 
+System.Net.Sockets Verbose: 0 : [170748] Socket#49911653::Listen(Int32#2147483647)
+System.Net.Sockets Verbose: 0 : [170748] Exiting Socket#49911653::Listen() 
+System.Net.Sockets Verbose: 0 : [170748] Exiting TcpListener#45410999::Start() 
+System.Net.Sockets Verbose: 0 : [170748] TcpListener#45410999::AcceptTcpClient()
+System.Net.Sockets Verbose: 0 : [170748] Socket#49911653::Accept()
+System.Net.Sockets Verbose: 0 : [177644] Socket#64867032::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [177644] Exiting Socket#64867032::Socket() 
+System.Net.Sockets Verbose: 0 : [177644] Socket#64867032::Connect(127.0.0.1:9121#16786398)
+System.Net.Sockets Verbose: 0 : [170748] Socket#33111870::Socket()
+System.Net.Sockets Verbose: 0 : [170748] Exiting Socket#33111870::Socket() 
+System.Net.Sockets Information: 0 : [177644] Socket#64867032 - Created connection from 127.0.0.1:65414 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [177644] Exiting Socket#64867032::Connect() 
+System.Net.Sockets Verbose: 0 : [177644] Socket#64867032::Send()
+System.Net.Sockets Verbose: 0 : [177644] Data from Socket#64867032::Send
+System.Net.Sockets Verbose: 0 : [177644] 00000000 : 7A 6F 64 69 61 63 39 34-39 3A 20 74 68 69 73 20 : zodiac949: this 
+System.Net.Sockets Verbose: 0 : [177644] 00000010 : 69 73 20 61 6E 20 69 6D-70 6F 72 74 61 6E 74 20 : is an important 
+System.Net.Sockets Verbose: 0 : [177644] 00000020 : 74 65 73 74 0A                                  : test.
+System.Net.Sockets Verbose: 0 : [177644] Exiting Socket#64867032::Send() 	-> Int32#37
+System.Net.Sockets Information: 0 : [170748] Socket#33111870 - Accepted connection from 127.0.0.1:65414 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [170748] Exiting Socket#49911653::Accept() 	-> Socket#33111870
+System.Net.Sockets Verbose: 0 : [170748] TcpClient#15409429::TcpClient(Socket#33111870)
+System.Net.Sockets Verbose: 0 : [170748] Exiting TcpClient#15409429::TcpClient() 
+System.Net.Sockets Verbose: 0 : [170748] Exiting TcpListener#45410999::AcceptTcpClient() 	-> TcpClient#15409429
+System.Net.Sockets Verbose: 0 : [170748] TcpClient#15409429::GetStream()
+System.Net.Sockets Verbose: 0 : [170748] Exiting TcpClient#15409429::GetStream() 	-> NetworkStream#27806816
+System.Net.Sockets Verbose: 0 : [170748] Socket#33111870::Receive()
+System.Net.Sockets Verbose: 0 : [170748] Data from Socket#33111870::Receive
+System.Net.Sockets Verbose: 0 : [170748] 00000000 : 7A 6F 64 69 61 63 39 34-39 3A 20 74 68 69 73 20 : zodiac949: this 
+System.Net.Sockets Verbose: 0 : [170748] 00000010 : 69 73 20 61 6E 20 69 6D-70 6F 72 74 61 6E 74 20 : is an important 
+System.Net.Sockets Verbose: 0 : [170748] 00000020 : 74 65 73 74 0A                                  : test.
+System.Net.Sockets Verbose: 0 : [170748] Exiting Socket#33111870::Receive() 	-> Int32#37
+System.Net.Sockets Verbose: 0 : [176188] TcpListener#30923613::TcpListener(127.0.0.1#16777343)
+System.Net.Sockets Verbose: 0 : [176188] Socket#49385318::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [176188] Exiting Socket#49385318::Socket() 
+System.Net.Sockets Verbose: 0 : [176188] Exiting TcpListener#30923613::TcpListener() 
+System.Net.Sockets Verbose: 0 : [176188] TcpListener#30923613::Start()
+System.Net.Sockets Verbose: 0 : [176188] Socket#49385318::Bind(127.0.0.1:9121#16786398)
+System.Net.Sockets Verbose: 0 : [176188] Exiting Socket#49385318::Bind() 
+System.Net.Sockets Verbose: 0 : [176188] Socket#49385318::Listen(Int32#2147483647)
+System.Net.Sockets Verbose: 0 : [176188] Exiting Socket#49385318::Listen() 
+System.Net.Sockets Verbose: 0 : [176188] Exiting TcpListener#30923613::Start() 
+System.Net.Sockets Verbose: 0 : [176188] TcpListener#30923613::AcceptTcpClient()
+System.Net.Sockets Verbose: 0 : [176188] Socket#49385318::Accept()
+System.Net.Sockets Verbose: 0 : [158832] Socket#64923656::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [158832] Exiting Socket#64923656::Socket() 
+System.Net.Sockets Verbose: 0 : [158832] Socket#64923656::Connect(127.0.0.1:9121#16786398)
+System.Net.Sockets Verbose: 0 : [176188] Socket#7746814::Socket()
+System.Net.Sockets Verbose: 0 : [176188] Exiting Socket#7746814::Socket() 
+System.Net.Sockets Information: 0 : [158832] Socket#64923656 - Created connection from 127.0.0.1:65508 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [158832] Exiting Socket#64923656::Connect() 
+System.Net.Sockets Information: 0 : [176188] Socket#7746814 - Accepted connection from 127.0.0.1:65508 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [176188] Exiting Socket#49385318::Accept() 	-> Socket#7746814
+System.Net.Sockets Verbose: 0 : [176188] TcpClient#13062350::TcpClient(Socket#7746814)
+System.Net.Sockets Verbose: 0 : [176188] Exiting TcpClient#13062350::TcpClient() 
+System.Net.Sockets Verbose: 0 : [176188] Exiting TcpListener#30923613::AcceptTcpClient() 	-> TcpClient#13062350
+System.Net.Sockets Verbose: 0 : [176188] TcpClient#13062350::GetStream()
+System.Net.Sockets Verbose: 0 : [176188] Exiting TcpClient#13062350::GetStream() 	-> NetworkStream#50934842
+System.Net.Sockets Verbose: 0 : [176188] Socket#7746814::Receive()
+System.Net.Sockets Verbose: 0 : [158832] Socket#64923656::Send()
+System.Net.Sockets Verbose: 0 : [158832] Data from Socket#64923656::Send
+System.Net.Sockets Verbose: 0 : [176188] Data from Socket#7746814::Receive
+System.Net.Sockets Verbose: 0 : [176188] 00000000 : 7A 6F 64 69 61 63 39 34-39 3A 20 54 68 69 73 20 : zodiac949: This 
+System.Net.Sockets Verbose: 0 : [176188] 00000010 : 69 73 20 61 6E 20 69 6D-70 6F 72 74 61 6E 74 20 : is an important 
+System.Net.Sockets Verbose: 0 : [176188] 00000020 : 74 65 73 74 0A                                  : test.
+System.Net.Sockets Verbose: 0 : [176188] Exiting Socket#7746814::Receive() 	-> Int32#37
+System.Net.Sockets Verbose: 0 : [158832] 00000000 : 7A 6F 64 69 61 63 39 34-39 3A 20 54 68 69 73 20 : zodiac949: This 
+System.Net.Sockets Verbose: 0 : [158832] 00000010 : 69 73 20 61 6E 20 69 6D-70 6F 72 74 61 6E 74 20 : is an important 
+System.Net.Sockets Verbose: 0 : [158832] 00000020 : 74 65 73 74 0A                                  : test.
+System.Net.Sockets Verbose: 0 : [158832] Exiting Socket#64923656::Send() 	-> Int32#37
+System.Net Error: 0 : [176188] Exception in AppDomain#12547953::UnhandledExceptionHandler - Cross-thread operation not valid: Control 'chatBox' accessed from a thread other than the thread it was created on..
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at IMClient.Form1.listener() in C:\Users\Patrick\documents\visual studio 2015\Projects\IMClient\IMClient\Form1.cs:line 65
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+System.Net.Sockets Verbose: 0 : [174056] TcpListener#30923613::TcpListener(127.0.0.1#16777343)
+System.Net.Sockets Verbose: 0 : [174056] Socket#49385318::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [174056] Exiting Socket#49385318::Socket() 
+System.Net.Sockets Verbose: 0 : [174056] Exiting TcpListener#30923613::TcpListener() 
+System.Net.Sockets Verbose: 0 : [174056] TcpListener#30923613::Start()
+System.Net.Sockets Verbose: 0 : [174056] Socket#49385318::Bind(127.0.0.1:9121#16786398)
+System.Net.Sockets Verbose: 0 : [174056] Exiting Socket#49385318::Bind() 
+System.Net.Sockets Verbose: 0 : [174056] Socket#49385318::Listen(Int32#2147483647)
+System.Net.Sockets Verbose: 0 : [174056] Exiting Socket#49385318::Listen() 
+System.Net.Sockets Verbose: 0 : [174056] Exiting TcpListener#30923613::Start() 
+System.Net.Sockets Verbose: 0 : [174056] TcpListener#30923613::AcceptTcpClient()
+System.Net.Sockets Verbose: 0 : [174056] Socket#49385318::Accept()
+System.Net.Sockets Verbose: 0 : [173624] Socket#64923656::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [173624] Exiting Socket#64923656::Socket() 
+System.Net.Sockets Verbose: 0 : [173624] Socket#64923656::Connect(127.0.0.1:9121#16786398)
+System.Net.Sockets Verbose: 0 : [174056] Socket#7746814::Socket()
+System.Net.Sockets Verbose: 0 : [174056] Exiting Socket#7746814::Socket() 
+System.Net.Sockets Information: 0 : [173624] Socket#64923656 - Created connection from 127.0.0.1:49218 to 127.0.0.1:9121.
+System.Net.Sockets Information: 0 : [174056] Socket#7746814 - Accepted connection from 127.0.0.1:49218 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [174056] Exiting Socket#49385318::Accept() 	-> Socket#7746814
+System.Net.Sockets Verbose: 0 : [174056] TcpClient#13062350::TcpClient(Socket#7746814)
+System.Net.Sockets Verbose: 0 : [174056] Exiting TcpClient#13062350::TcpClient() 
+System.Net.Sockets Verbose: 0 : [174056] Exiting TcpListener#30923613::AcceptTcpClient() 	-> TcpClient#13062350
+System.Net.Sockets Verbose: 0 : [174056] TcpClient#13062350::GetStream()
+System.Net.Sockets Verbose: 0 : [174056] Exiting TcpClient#13062350::GetStream() 	-> NetworkStream#50934842
+System.Net.Sockets Verbose: 0 : [174056] Socket#7746814::Receive()
+System.Net.Sockets Verbose: 0 : [173624] Exiting Socket#64923656::Connect() 
+System.Net.Sockets Verbose: 0 : [173624] Socket#64923656::Send()
+System.Net.Sockets Verbose: 0 : [173624] Data from Socket#64923656::Send
+System.Net.Sockets Verbose: 0 : [174056] Data from Socket#7746814::Receive
+System.Net.Sockets Verbose: 0 : [174056] 00000000 : 7A 6F 64 69 61 63 39 34-39 3A 20 74 68 69 73 73 : zodiac949: thiss
+System.Net.Sockets Verbose: 0 : [174056] 00000010 : 73 73 73 0A                                     : sss.
+System.Net.Sockets Verbose: 0 : [174056] Exiting Socket#7746814::Receive() 	-> Int32#20
+System.Net.Sockets Verbose: 0 : [173624] 00000000 : 7A 6F 64 69 61 63 39 34-39 3A 20 74 68 69 73 73 : zodiac949: thiss
+System.Net.Sockets Verbose: 0 : [173624] 00000010 : 73 73 73 0A                                     : sss.
+System.Net.Sockets Verbose: 0 : [173624] Exiting Socket#64923656::Send() 	-> Int32#20
+System.Net Error: 0 : [174056] Exception in AppDomain#12547953::UnhandledExceptionHandler - Cross-thread operation not valid: Control 'chatBox' accessed from a thread other than the thread it was created on..
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at IMClient.Form1.listener() in C:\Users\Patrick\documents\visual studio 2015\Projects\IMClient\IMClient\Form1.cs:line 65
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+System.Net.Sockets Verbose: 0 : [174624] TcpListener#45410999::TcpListener(127.0.0.1#16777343)
+System.Net.Sockets Verbose: 0 : [174624] Socket#49911653::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [174624] Exiting Socket#49911653::Socket() 
+System.Net.Sockets Verbose: 0 : [174624] Exiting TcpListener#45410999::TcpListener() 
+System.Net.Sockets Verbose: 0 : [174624] TcpListener#45410999::Start()
+System.Net.Sockets Verbose: 0 : [174624] Socket#49911653::Bind(127.0.0.1:9121#16786398)
+System.Net.Sockets Verbose: 0 : [174624] Exiting Socket#49911653::Bind() 
+System.Net.Sockets Verbose: 0 : [174624] Socket#49911653::Listen(Int32#2147483647)
+System.Net.Sockets Verbose: 0 : [174624] Exiting Socket#49911653::Listen() 
+System.Net.Sockets Verbose: 0 : [174624] Exiting TcpListener#45410999::Start() 
+System.Net.Sockets Verbose: 0 : [174624] TcpListener#45410999::AcceptTcpClient()
+System.Net.Sockets Verbose: 0 : [174624] Socket#49911653::Accept()
+System.Net.Sockets Verbose: 0 : [173880] Socket#64867032::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [173880] Exiting Socket#64867032::Socket() 
+System.Net.Sockets Verbose: 0 : [173880] Socket#64867032::Connect(127.0.0.1:9121#16786398)
+System.Net.Sockets Verbose: 0 : [174624] Socket#33111870::Socket()
+System.Net.Sockets Verbose: 0 : [174624] Exiting Socket#33111870::Socket() 
+System.Net.Sockets Information: 0 : [173880] Socket#64867032 - Created connection from 127.0.0.1:49373 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [173880] Exiting Socket#64867032::Connect() 
+System.Net.Sockets Verbose: 0 : [173880] Socket#64867032::Send()
+System.Net.Sockets Verbose: 0 : [173880] Data from Socket#64867032::Send
+System.Net.Sockets Verbose: 0 : [173880] 00000000 : 64 66 64 66 3A 20 64 73-66 67 73 64 66 64 66 0A : dfdf: dsfgsdfdf.
+System.Net.Sockets Verbose: 0 : [173880] Exiting Socket#64867032::Send() 	-> Int32#16
+System.Net.Sockets Information: 0 : [174624] Socket#33111870 - Accepted connection from 127.0.0.1:49373 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [174624] Exiting Socket#49911653::Accept() 	-> Socket#33111870
+System.Net.Sockets Verbose: 0 : [174624] TcpClient#15409429::TcpClient(Socket#33111870)
+System.Net.Sockets Verbose: 0 : [174624] Exiting TcpClient#15409429::TcpClient() 
+System.Net.Sockets Verbose: 0 : [174624] Exiting TcpListener#45410999::AcceptTcpClient() 	-> TcpClient#15409429
+System.Net Error: 0 : [174624] Exception in AppDomain#65934242::UnhandledExceptionHandler - Cross-thread operation not valid: Control 'chatBox' accessed from a thread other than the thread it was created on..
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at IMClient.Form1.listener() in C:\Users\Patrick\documents\visual studio 2015\Projects\IMClient\IMClient\Form1.cs:line 66
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+System.Net.Sockets Verbose: 0 : [179364] TcpListener#43927528::TcpListener(127.0.0.1#16777343)
+System.Net.Sockets Verbose: 0 : [179364] Socket#30581704::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [179364] Exiting Socket#30581704::Socket() 
+System.Net.Sockets Verbose: 0 : [179364] Exiting TcpListener#43927528::TcpListener() 
+System.Net.Sockets Verbose: 0 : [179364] TcpListener#43927528::Start()
+System.Net.Sockets Verbose: 0 : [179364] Socket#30581704::Bind(127.0.0.1:9121#16786398)
+System.Net.Sockets Verbose: 0 : [179364] Exiting Socket#30581704::Bind() 
+System.Net.Sockets Verbose: 0 : [179364] Socket#30581704::Listen(Int32#2147483647)
+System.Net.Sockets Verbose: 0 : [179364] Exiting Socket#30581704::Listen() 
+System.Net.Sockets Verbose: 0 : [179364] Exiting TcpListener#43927528::Start() 
+System.Net.Sockets Verbose: 0 : [179364] TcpListener#43927528::AcceptTcpClient()
+System.Net.Sockets Verbose: 0 : [179364] Socket#30581704::Accept()
+System.Net.Sockets Verbose: 0 : [179260] Socket#57352375::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [179260] Exiting Socket#57352375::Socket() 
+System.Net.Sockets Verbose: 0 : [179260] Socket#57352375::Connect(127.0.0.1:9121#16786398)
+System.Net.Sockets Verbose: 0 : [179364] Socket#33999400::Socket()
+System.Net.Sockets Verbose: 0 : [179364] Exiting Socket#33999400::Socket() 
+System.Net.Sockets Information: 0 : [179260] Socket#57352375 - Created connection from 127.0.0.1:49568 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [179260] Exiting Socket#57352375::Connect() 
+System.Net.Sockets Verbose: 0 : [179260] Socket#57352375::Send()
+System.Net.Sockets Information: 0 : [179364] Socket#33999400 - Accepted connection from 127.0.0.1:49568 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [179364] Exiting Socket#30581704::Accept() 	-> Socket#33999400
+System.Net.Sockets Verbose: 0 : [179364] TcpClient#53578024::TcpClient(Socket#33999400)
+System.Net.Sockets Verbose: 0 : [179364] Exiting TcpClient#53578024::TcpClient() 
+System.Net.Sockets Verbose: 0 : [179364] Exiting TcpListener#43927528::AcceptTcpClient() 	-> TcpClient#53578024
+System.Net.Sockets Verbose: 0 : [179260] Data from Socket#57352375::Send
+System.Net.Sockets Verbose: 0 : [179260] 00000000 : 7A 6F 64 69 61 63 39 34-39 3A 20 74 65 73 74 4D : zodiac949: testM
+System.Net.Sockets Verbose: 0 : [179260] 00000010 : 65 73 73 61 67 65 0A                            : essage.
+System.Net.Sockets Verbose: 0 : [179260] Exiting Socket#57352375::Send() 	-> Int32#23
+System.Net.Sockets Verbose: 0 : [179364] TcpListener#43927528::AcceptTcpClient()
+System.Net.Sockets Verbose: 0 : [179364] Socket#30581704::Accept()
+System.Net.Sockets Verbose: 0 : [179260] Socket#2637164::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [179260] Exiting Socket#2637164::Socket() 
+System.Net.Sockets Verbose: 0 : [179260] Socket#2637164::Connect(127.0.0.1:9121#16786398)
+System.Net.Sockets Information: 0 : [179260] Socket#2637164 - Created connection from 127.0.0.1:49570 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [179260] Exiting Socket#2637164::Connect() 
+System.Net.Sockets Verbose: 0 : [179260] Socket#2637164::Send()
+System.Net.Sockets Verbose: 0 : [179260] Data from Socket#2637164::Send
+System.Net.Sockets Verbose: 0 : [179260] 00000000 : 7A 6F 64 69 61 63 39 34-39 3A 20 74 68 65 20 71 : zodiac949: the q
+System.Net.Sockets Verbose: 0 : [179260] 00000010 : 75 63 6B 20 62 72 6F 77-6E 20 66 6F 78 0A       : uck brown fox.
+System.Net.Sockets Verbose: 0 : [179260] Exiting Socket#2637164::Send() 	-> Int32#30
+System.Net.Sockets Verbose: 0 : [179364] Socket#62200856::Socket()
+System.Net.Sockets Verbose: 0 : [179364] Exiting Socket#62200856::Socket() 
+System.Net.Sockets Information: 0 : [179364] Socket#62200856 - Accepted connection from 127.0.0.1:49570 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [179364] Exiting Socket#30581704::Accept() 	-> Socket#62200856
+System.Net.Sockets Verbose: 0 : [179364] TcpClient#47575104::TcpClient(Socket#62200856)
+System.Net.Sockets Verbose: 0 : [179364] Exiting TcpClient#47575104::TcpClient() 
+System.Net.Sockets Verbose: 0 : [179364] Exiting TcpListener#43927528::AcceptTcpClient() 	-> TcpClient#47575104
+System.Net.Sockets Verbose: 0 : [179364] TcpListener#43927528::AcceptTcpClient()
+System.Net.Sockets Verbose: 0 : [179364] Socket#30581704::Accept()
+System.Net.Sockets Verbose: 0 : [177416] TcpListener#45410999::TcpListener(127.0.0.1#16777343)
+System.Net.Sockets Verbose: 0 : [177416] Socket#49911653::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [177416] Exiting Socket#49911653::Socket() 
+System.Net.Sockets Verbose: 0 : [177416] Exiting TcpListener#45410999::TcpListener() 
+System.Net.Sockets Verbose: 0 : [177416] TcpListener#45410999::Start()
+System.Net.Sockets Verbose: 0 : [177416] Socket#49911653::Bind(127.0.0.1:9121#16786398)
+System.Net.Sockets Verbose: 0 : [177416] Exiting Socket#49911653::Bind() 
+System.Net.Sockets Verbose: 0 : [177416] Socket#49911653::Listen(Int32#2147483647)
+System.Net.Sockets Verbose: 0 : [177416] Exiting Socket#49911653::Listen() 
+System.Net.Sockets Verbose: 0 : [177416] Exiting TcpListener#45410999::Start() 
+System.Net.Sockets Verbose: 0 : [177416] TcpListener#45410999::AcceptTcpClient()
+System.Net.Sockets Verbose: 0 : [177416] Socket#49911653::Accept()
+System.Net.Sockets Verbose: 0 : [176384] Socket#64867032::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [176384] Exiting Socket#64867032::Socket() 
+System.Net.Sockets Verbose: 0 : [176384] Socket#64867032::Connect(127.0.0.1:9121#16786398)
+System.Net.Sockets Verbose: 0 : [177416] Socket#33111870::Socket()
+System.Net.Sockets Verbose: 0 : [177416] Exiting Socket#33111870::Socket() 
+System.Net.Sockets Information: 0 : [176384] Socket#64867032 - Created connection from 127.0.0.1:49677 to 127.0.0.1:9121.
+System.Net.Sockets Information: 0 : [177416] Socket#33111870 - Accepted connection from 127.0.0.1:49677 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [177416] Exiting Socket#49911653::Accept() 	-> Socket#33111870
+System.Net.Sockets Verbose: 0 : [177416] TcpClient#15409429::TcpClient(Socket#33111870)
+System.Net.Sockets Verbose: 0 : [177416] Exiting TcpClient#15409429::TcpClient() 
+System.Net.Sockets Verbose: 0 : [177416] Exiting TcpListener#45410999::AcceptTcpClient() 	-> TcpClient#15409429
+System.Net.Sockets Verbose: 0 : [176384] Exiting Socket#64867032::Connect() 
+System.Net.Sockets Verbose: 0 : [176384] Socket#64867032::Send()
+System.Net.Sockets Verbose: 0 : [176384] Data from Socket#64867032::Send
+System.Net.Sockets Verbose: 0 : [176384] 00000000 : 7A 6F 64 69 61 63 39 34-39 3A 20 74 68 69 73 20 : zodiac949: this 
+System.Net.Sockets Verbose: 0 : [176384] 00000010 : 69 73 20 61 20 74 65 73-74 0A                   : is a test.
+System.Net.Sockets Verbose: 0 : [176384] Exiting Socket#64867032::Send() 	-> Int32#26
+System.Net Error: 0 : [177416] Exception in AppDomain#65934242::UnhandledExceptionHandler - Cross-thread operation not valid: Control 'chatBox' accessed from a thread other than the thread it was created on..
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.set_WindowText(String value)
+   at System.Windows.Forms.TextBoxBase.set_WindowText(String value)
+   at System.Windows.Forms.Control.set_Text(String value)
+   at System.Windows.Forms.TextBoxBase.set_Text(String value)
+   at System.Windows.Forms.TextBox.set_Text(String value)
+   at IMClient.Form1.listener() in C:\Users\Patrick\documents\visual studio 2015\Projects\IMClient\IMClient\Form1.cs:line 64
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
