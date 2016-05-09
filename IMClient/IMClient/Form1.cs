@@ -65,7 +65,7 @@ public partial class Form1 : Form
                 String msg = System.Text.Encoding.UTF8.GetString(bytes, 0, bytes.Length); //Convert byte array to string
                 chatBox.Text += "\r\n FROM SERVER: ";
                 chatBox.Text += msg;
-
+               //InvokeChatbox(msg);
             }
 
         }
