@@ -54,8 +54,14 @@ public partial class Form1 : Form
                 byte[] bytes = new byte[256];
                 NetworkStream stream = tcpClient.GetStream();
                 stream.Read(bytes, 0, bytes.Length);
-                // String msg = new StreamReader(stream).ReadToEnd();
-                Control.CheckForIllegalCrossThreadCalls = false;//A quick fix for allowing multi-thread control over one object - not a great idea in the long run.
+               
+                ////////////////////////////////////////////////////////
+                ///////////////////////////////////////////////////////
+                 //A quick fix for allowing multi-thread control over one object - not a great idea in the long run.
+                 Control.CheckForIllegalCrossThreadCalls = false;
+               /////////////////////////////////////////////////////////
+               /////////////////////////////////////////////////////////
+               
                 String msg = System.Text.Encoding.UTF8.GetString(bytes, 0, bytes.Length); //Convert byte array to string
                 chatBox.Text += "\r\n FROM SERVER: ";
                 chatBox.Text += msg;
@@ -63,6 +69,22 @@ public partial class Form1 : Form
             }
 
         }
+    
+      //TODO: Call this thread after checking firewall ports.
+      //Enable thread safety.
+      private void InvokeChatbox(String msg)
+        {
+            if(chatBox.InvokeRequired)
+            {
+                chatBox.Invoke(new MethodInvoker(() => 
+                    {
+                        chatBox.Text += "\r\n FROM SERVER: ";
+                        chatBox.Text += msg;
+                }));
+
+            }
+        }
+
 
 
 
