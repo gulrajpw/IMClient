@@ -2132,3 +2132,247 @@ System.Net.Sockets Verbose: 0 : [18496] 00000010 : 75 69 63 6B 20 62 72 6F-77 6E
 System.Net.Sockets Verbose: 0 : [18496] Exiting Socket#66337667::Receive() 	-> Int32#31
 System.Net.Sockets Verbose: 0 : [18496] TcpListener#45410999::AcceptTcpClient()
 System.Net.Sockets Verbose: 0 : [18496] Socket#49911653::Accept()
+System.Net.Sockets Verbose: 0 : [11704] TcpListener#43927528::TcpListener(127.0.0.1#16777343)
+System.Net.Sockets Verbose: 0 : [11704] Socket#30581704::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [11704] Exiting Socket#30581704::Socket() 
+System.Net.Sockets Verbose: 0 : [11704] Exiting TcpListener#43927528::TcpListener() 
+System.Net.Sockets Verbose: 0 : [11704] TcpListener#43927528::Start()
+System.Net.Sockets Verbose: 0 : [11704] Socket#30581704::Bind(127.0.0.1:9121#16786398)
+System.Net.Sockets Verbose: 0 : [11704] Exiting Socket#30581704::Bind() 
+System.Net.Sockets Verbose: 0 : [11704] Socket#30581704::Listen(Int32#2147483647)
+System.Net.Sockets Verbose: 0 : [11704] Exiting Socket#30581704::Listen() 
+System.Net.Sockets Verbose: 0 : [11704] Exiting TcpListener#43927528::Start() 
+System.Net.Sockets Verbose: 0 : [11704] TcpListener#43927528::AcceptTcpClient()
+System.Net.Sockets Verbose: 0 : [11704] Socket#30581704::Accept()
+System.Net.Sockets Verbose: 0 : [15848] Socket#57352375::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [15848] Exiting Socket#57352375::Socket() 
+System.Net.Sockets Verbose: 0 : [15848] Socket#57352375::Connect(127.0.0.1:9121#16786398)
+System.Net.Sockets Verbose: 0 : [11704] Socket#33999400::Socket()
+System.Net.Sockets Verbose: 0 : [11704] Exiting Socket#33999400::Socket() 
+System.Net.Sockets Information: 0 : [15848] Socket#57352375 - Created connection from 127.0.0.1:61914 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [15848] Exiting Socket#57352375::Connect() 
+System.Net.Sockets Verbose: 0 : [15848] Socket#57352375::Send()
+System.Net.Sockets Verbose: 0 : [15848] Data from Socket#57352375::Send
+System.Net.Sockets Verbose: 0 : [15848] 00000000 : 52 6F 79 61 6C 3A 20 74-68 69 73 20 69 73 20 61 : Royal: this is a
+System.Net.Sockets Information: 0 : [11704] Socket#33999400 - Accepted connection from 127.0.0.1:61914 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [11704] Exiting Socket#30581704::Accept() 	-> Socket#33999400
+System.Net.Sockets Verbose: 0 : [11704] TcpClient#53578024::TcpClient(Socket#33999400)
+System.Net.Sockets Verbose: 0 : [11704] Exiting TcpClient#53578024::TcpClient() 
+System.Net.Sockets Verbose: 0 : [11704] Exiting TcpListener#43927528::AcceptTcpClient() 	-> TcpClient#53578024
+System.Net.Sockets Verbose: 0 : [11704] TcpClient#53578024::GetStream()
+System.Net.Sockets Verbose: 0 : [11704] Exiting TcpClient#53578024::GetStream() 	-> NetworkStream#62200856
+System.Net.Sockets Verbose: 0 : [11704] Socket#33999400::Receive()
+System.Net.Sockets Verbose: 0 : [15848] 00000010 : 20 74 65 73 74 20 6D 65-73 73 61 67 65 0A       :  test message.
+System.Net.Sockets Verbose: 0 : [15848] Exiting Socket#57352375::Send() 	-> Int32#30
+System.Net.Sockets Verbose: 0 : [11704] Data from Socket#33999400::Receive
+System.Net.Sockets Verbose: 0 : [11704] 00000000 : 52 6F 79 61 6C 3A 20 74-68 69 73 20 69 73 20 61 : Royal: this is a
+System.Net.Sockets Verbose: 0 : [11704] 00000010 : 20 74 65 73 74 20 6D 65-73 73 61 67 65 0A       :  test message.
+System.Net.Sockets Verbose: 0 : [11704] Exiting Socket#33999400::Receive() 	-> Int32#30
+System.Net.Sockets Verbose: 0 : [11704] TcpListener#43927528::AcceptTcpClient()
+System.Net.Sockets Verbose: 0 : [11704] Socket#30581704::Accept()
+System.Net.Sockets Verbose: 0 : [15848] Socket#2637164::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [15848] Exiting Socket#2637164::Socket() 
+System.Net.Sockets Verbose: 0 : [15848] Socket#2637164::Connect(127.0.0.1:9121#16786398)
+System.Net.Sockets Information: 0 : [15848] Socket#2637164 - Created connection from 127.0.0.1:61916 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [15848] Exiting Socket#2637164::Connect() 
+System.Net.Sockets Verbose: 0 : [15848] Socket#2637164::Send()
+System.Net.Sockets Verbose: 0 : [11704] Socket#47575104::Socket()
+System.Net.Sockets Verbose: 0 : [11704] Exiting Socket#47575104::Socket() 
+System.Net.Sockets Verbose: 0 : [15848] Data from Socket#2637164::Send
+System.Net.Sockets Information: 0 : [11704] Socket#47575104 - Accepted connection from 127.0.0.1:61916 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [11704] Exiting Socket#30581704::Accept() 	-> Socket#47575104
+System.Net.Sockets Verbose: 0 : [11704] TcpClient#60504916::TcpClient(Socket#47575104)
+System.Net.Sockets Verbose: 0 : [11704] Exiting TcpClient#60504916::TcpClient() 
+System.Net.Sockets Verbose: 0 : [11704] Exiting TcpListener#43927528::AcceptTcpClient() 	-> TcpClient#60504916
+System.Net.Sockets Verbose: 0 : [11704] TcpClient#60504916::GetStream()
+System.Net.Sockets Verbose: 0 : [11704] Exiting TcpClient#60504916::GetStream() 	-> NetworkStream#38366678
+System.Net.Sockets Verbose: 0 : [11704] Socket#47575104::Receive()
+System.Net.Sockets Verbose: 0 : [11704] Data from Socket#47575104::Receive
+System.Net.Sockets Verbose: 0 : [15848] 00000000 : 52 6F 79 61 6C 3A 20 74-68 69 73 20 69 73 20 61 : Royal: this is a
+System.Net.Sockets Verbose: 0 : [15848] 00000010 : 6E 6F 74 68 65 72 20 74-65 73 74 20 6D 65 73 73 : nother test mess
+System.Net.Sockets Verbose: 0 : [15848] 00000020 : 61 67 65 0A                                     : age.
+System.Net.Sockets Verbose: 0 : [15848] Exiting Socket#2637164::Send() 	-> Int32#36
+System.Net.Sockets Verbose: 0 : [11704] 00000000 : 52 6F 79 61 6C 3A 20 74-68 69 73 20 69 73 20 61 : Royal: this is a
+System.Net.Sockets Verbose: 0 : [11704] 00000010 : 6E 6F 74 68 65 72 20 74-65 73 74 20 6D 65 73 73 : nother test mess
+System.Net.Sockets Verbose: 0 : [11704] 00000020 : 61 67 65 0A                                     : age.
+System.Net.Sockets Verbose: 0 : [11704] Exiting Socket#47575104::Receive() 	-> Int32#36
+System.Net.Sockets Verbose: 0 : [11704] TcpListener#43927528::AcceptTcpClient()
+System.Net.Sockets Verbose: 0 : [11704] Socket#30581704::Accept()
+System.Net.Sockets Verbose: 0 : [15848] Socket#41014879::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [15848] Exiting Socket#41014879::Socket() 
+System.Net.Sockets Verbose: 0 : [15848] Socket#41014879::Connect(127.0.0.1:9121#16786398)
+System.Net.Sockets Information: 0 : [15848] Socket#41014879 - Created connection from 127.0.0.1:61917 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [15848] Exiting Socket#41014879::Connect() 
+System.Net.Sockets Verbose: 0 : [15848] Socket#41014879::Send()
+System.Net.Sockets Verbose: 0 : [11704] Socket#48778923::Socket()
+System.Net.Sockets Verbose: 0 : [11704] Exiting Socket#48778923::Socket() 
+System.Net.Sockets Information: 0 : [11704] Socket#48778923 - Accepted connection from 127.0.0.1:61917 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [11704] Exiting Socket#30581704::Accept() 	-> Socket#48778923
+System.Net.Sockets Verbose: 0 : [11704] TcpClient#47567903::TcpClient(Socket#48778923)
+System.Net.Sockets Verbose: 0 : [11704] Exiting TcpClient#47567903::TcpClient() 
+System.Net.Sockets Verbose: 0 : [11704] Exiting TcpListener#43927528::AcceptTcpClient() 	-> TcpClient#47567903
+System.Net.Sockets Verbose: 0 : [11704] TcpClient#47567903::GetStream()
+System.Net.Sockets Verbose: 0 : [11704] Exiting TcpClient#47567903::GetStream() 	-> NetworkStream#60180891
+System.Net.Sockets Verbose: 0 : [11704] Socket#48778923::Receive()
+System.Net.Sockets Verbose: 0 : [15848] Data from Socket#41014879::Send
+System.Net.Sockets Verbose: 0 : [15848] 00000000 : 52 6F 79 61 6C 3A 20 0A-                        : Royal: .
+System.Net.Sockets Verbose: 0 : [15848] Exiting Socket#41014879::Send() 	-> Int32#8
+System.Net.Sockets Verbose: 0 : [11704] Data from Socket#48778923::Receive
+System.Net.Sockets Verbose: 0 : [11704] 00000000 : 52 6F 79 61 6C 3A 20 0A-                        : Royal: .
+System.Net.Sockets Verbose: 0 : [11704] Exiting Socket#48778923::Receive() 	-> Int32#8
+System.Net.Sockets Verbose: 0 : [11704] TcpListener#43927528::AcceptTcpClient()
+System.Net.Sockets Verbose: 0 : [11704] Socket#30581704::Accept()
+System.Net.Sockets Verbose: 0 : [15848] Socket#3888474::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [15848] Exiting Socket#3888474::Socket() 
+System.Net.Sockets Verbose: 0 : [15848] Socket#3888474::Connect(127.0.0.1:9121#16786398)
+System.Net.Sockets Information: 0 : [15848] Socket#3888474 - Created connection from 127.0.0.1:61918 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [11704] Socket#23785539::Socket()
+System.Net.Sockets Verbose: 0 : [11704] Exiting Socket#23785539::Socket() 
+System.Net.Sockets Information: 0 : [11704] Socket#23785539 - Accepted connection from 127.0.0.1:61918 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [11704] Exiting Socket#30581704::Accept() 	-> Socket#23785539
+System.Net.Sockets Verbose: 0 : [11704] TcpClient#63716305::TcpClient(Socket#23785539)
+System.Net.Sockets Verbose: 0 : [11704] Exiting TcpClient#63716305::TcpClient() 
+System.Net.Sockets Verbose: 0 : [11704] Exiting TcpListener#43927528::AcceptTcpClient() 	-> TcpClient#63716305
+System.Net.Sockets Verbose: 0 : [11704] TcpClient#63716305::GetStream()
+System.Net.Sockets Verbose: 0 : [11704] Exiting TcpClient#63716305::GetStream() 	-> NetworkStream#48661462
+System.Net.Sockets Verbose: 0 : [11704] Socket#23785539::Receive()
+System.Net.Sockets Verbose: 0 : [15848] Exiting Socket#3888474::Connect() 
+System.Net.Sockets Verbose: 0 : [15848] Socket#3888474::Send()
+System.Net.Sockets Verbose: 0 : [15848] Data from Socket#3888474::Send
+System.Net.Sockets Verbose: 0 : [15848] 00000000 : 52 6F 79 61 6C 3A 20 73-64 66 61 73 0A 0A 0A 73 : Royal: sdfas...s
+System.Net.Sockets Verbose: 0 : [15848] 00000010 : 64 61 66 61 73 64 66 61-73 64 66 0A             : dafasdfasdf.
+System.Net.Sockets Verbose: 0 : [15848] Exiting Socket#3888474::Send() 	-> Int32#28
+System.Net.Sockets Verbose: 0 : [11704] Data from Socket#23785539::Receive
+System.Net.Sockets Verbose: 0 : [11704] 00000000 : 52 6F 79 61 6C 3A 20 73-64 66 61 73 0A 0A 0A 73 : Royal: sdfas...s
+System.Net.Sockets Verbose: 0 : [11704] 00000010 : 64 61 66 61 73 64 66 61-73 64 66 0A             : dafasdfasdf.
+System.Net.Sockets Verbose: 0 : [11704] Exiting Socket#23785539::Receive() 	-> Int32#28
+System.Net.Sockets Verbose: 0 : [11704] TcpListener#43927528::AcceptTcpClient()
+System.Net.Sockets Verbose: 0 : [11704] Socket#30581704::Accept()
+System.Net.Sockets Verbose: 0 : [15848] Socket#25209742::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [15848] Exiting Socket#25209742::Socket() 
+System.Net.Sockets Verbose: 0 : [15848] Socket#25209742::Connect(127.0.0.1:9121#16786398)
+System.Net.Sockets Information: 0 : [15848] Socket#25209742 - Created connection from 127.0.0.1:61919 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [15848] Exiting Socket#25209742::Connect() 
+System.Net.Sockets Verbose: 0 : [15848] Socket#25209742::Send()
+System.Net.Sockets Verbose: 0 : [11704] Socket#42282156::Socket()
+System.Net.Sockets Verbose: 0 : [11704] Exiting Socket#42282156::Socket() 
+System.Net.Sockets Information: 0 : [11704] Socket#42282156 - Accepted connection from 127.0.0.1:61919 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [11704] Exiting Socket#30581704::Accept() 	-> Socket#42282156
+System.Net.Sockets Verbose: 0 : [11704] TcpClient#23648863::TcpClient(Socket#42282156)
+System.Net.Sockets Verbose: 0 : [11704] Exiting TcpClient#23648863::TcpClient() 
+System.Net.Sockets Verbose: 0 : [11704] Exiting TcpListener#43927528::AcceptTcpClient() 	-> TcpClient#23648863
+System.Net.Sockets Verbose: 0 : [11704] TcpClient#23648863::GetStream()
+System.Net.Sockets Verbose: 0 : [11704] Exiting TcpClient#23648863::GetStream() 	-> NetworkStream#57565882
+System.Net.Sockets Verbose: 0 : [11704] Socket#42282156::Receive()
+System.Net.Sockets Verbose: 0 : [11704] Data from Socket#42282156::Receive
+System.Net.Sockets Verbose: 0 : [15848] Data from Socket#25209742::Send
+System.Net.Sockets Verbose: 0 : [15848] 00000000 : 52 6F 79 61 6C 3A 20 73-64 66 61 64 73 61 66 64 : Royal: sdfadsafd
+System.Net.Sockets Verbose: 0 : [15848] 00000010 : 0A                                              : .
+System.Net.Sockets Verbose: 0 : [15848] Exiting Socket#25209742::Send() 	-> Int32#17
+System.Net.Sockets Verbose: 0 : [11704] 00000000 : 52 6F 79 61 6C 3A 20 73-64 66 61 64 73 61 66 64 : Royal: sdfadsafd
+System.Net.Sockets Verbose: 0 : [11704] 00000010 : 0A                                              : .
+System.Net.Sockets Verbose: 0 : [11704] Exiting Socket#42282156::Receive() 	-> Int32#17
+System.Net.Sockets Verbose: 0 : [11704] TcpListener#43927528::AcceptTcpClient()
+System.Net.Sockets Verbose: 0 : [11704] Socket#30581704::Accept()
+System.Net.Sockets Verbose: 0 : [15848] Socket#26966483::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [15848] Exiting Socket#26966483::Socket() 
+System.Net.Sockets Verbose: 0 : [15848] Socket#26966483::Connect(127.0.0.1:9121#16786398)
+System.Net.Sockets Information: 0 : [15848] Socket#26966483 - Created connection from 127.0.0.1:61920 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [15848] Exiting Socket#26966483::Connect() 
+System.Net.Sockets Verbose: 0 : [15848] Socket#26966483::Send()
+System.Net.Sockets Verbose: 0 : [11704] Socket#40327891::Socket()
+System.Net.Sockets Verbose: 0 : [11704] Exiting Socket#40327891::Socket() 
+System.Net.Sockets Information: 0 : [11704] Socket#40327891 - Accepted connection from 127.0.0.1:61920 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [11704] Exiting Socket#30581704::Accept() 	-> Socket#40327891
+System.Net.Sockets Verbose: 0 : [11704] TcpClient#2815801::TcpClient(Socket#40327891)
+System.Net.Sockets Verbose: 0 : [11704] Exiting TcpClient#2815801::TcpClient() 
+System.Net.Sockets Verbose: 0 : [11704] Exiting TcpListener#43927528::AcceptTcpClient() 	-> TcpClient#2815801
+System.Net.Sockets Verbose: 0 : [11704] TcpClient#2815801::GetStream()
+System.Net.Sockets Verbose: 0 : [11704] Exiting TcpClient#2815801::GetStream() 	-> NetworkStream#59602202
+System.Net.Sockets Verbose: 0 : [11704] Socket#40327891::Receive()
+System.Net.Sockets Verbose: 0 : [11704] Data from Socket#40327891::Receive
+System.Net.Sockets Verbose: 0 : [11704] 00000000 : 52 6F 79 61 6C 3A 20 73-64 66 64 73 61 66 73 64 : Royal: sdfdsafsd
+System.Net.Sockets Verbose: 0 : [11704] 00000010 : 66 64 73 61 66 0A                               : fdsaf.
+System.Net.Sockets Verbose: 0 : [11704] Exiting Socket#40327891::Receive() 	-> Int32#22
+System.Net.Sockets Verbose: 0 : [15848] Data from Socket#26966483::Send
+System.Net.Sockets Verbose: 0 : [15848] 00000000 : 52 6F 79 61 6C 3A 20 73-64 66 64 73 61 66 73 64 : Royal: sdfdsafsd
+System.Net.Sockets Verbose: 0 : [15848] 00000010 : 66 64 73 61 66 0A                               : fdsaf.
+System.Net.Sockets Verbose: 0 : [15848] Exiting Socket#26966483::Send() 	-> Int32#22
+System.Net.Sockets Verbose: 0 : [11704] TcpListener#43927528::AcceptTcpClient()
+System.Net.Sockets Verbose: 0 : [11704] Socket#30581704::Accept()
+System.Net.Sockets Verbose: 0 : [15436] TcpListener#2569844::TcpListener(127.0.0.1#16777343)
+System.Net.Sockets Verbose: 0 : [15436] Socket#58813504::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [15436] Exiting Socket#58813504::Socket() 
+System.Net.Sockets Verbose: 0 : [15436] Exiting TcpListener#2569844::TcpListener() 
+System.Net.Sockets Verbose: 0 : [15436] TcpListener#2569844::Start()
+System.Net.Sockets Verbose: 0 : [15436] Socket#58813504::Bind(127.0.0.1:9121#16786398)
+System.Net.Sockets Verbose: 0 : [15436] Exiting Socket#58813504::Bind() 
+System.Net.Sockets Verbose: 0 : [15436] Socket#58813504::Listen(Int32#2147483647)
+System.Net.Sockets Verbose: 0 : [15436] Exiting Socket#58813504::Listen() 
+System.Net.Sockets Verbose: 0 : [15436] Exiting TcpListener#2569844::Start() 
+System.Net.Sockets Verbose: 0 : [15436] TcpListener#2569844::AcceptTcpClient()
+System.Net.Sockets Verbose: 0 : [15436] Socket#58813504::Accept()
+System.Net.Sockets Verbose: 0 : [15912] TcpListener#9779853::TcpListener(127.0.0.1#16777343)
+System.Net.Sockets Verbose: 0 : [15912] Socket#65429669::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [15912] Exiting Socket#65429669::Socket() 
+System.Net.Sockets Verbose: 0 : [15912] Exiting TcpListener#9779853::TcpListener() 
+System.Net.Sockets Verbose: 0 : [15912] TcpListener#9779853::Start()
+System.Net.Sockets Verbose: 0 : [15912] Socket#65429669::Bind(127.0.0.1:9121#16786398)
+System.Net.Sockets Verbose: 0 : [15912] Exiting Socket#65429669::Bind() 
+System.Net.Sockets Verbose: 0 : [15912] Socket#65429669::Listen(Int32#2147483647)
+System.Net.Sockets Verbose: 0 : [15912] Exiting Socket#65429669::Listen() 
+System.Net.Sockets Verbose: 0 : [15912] Exiting TcpListener#9779853::Start() 
+System.Net.Sockets Verbose: 0 : [15912] TcpListener#9779853::AcceptTcpClient()
+System.Net.Sockets Verbose: 0 : [15912] Socket#65429669::Accept()
+System.Net.Sockets Verbose: 0 : [13156] Socket#36963566::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [13156] Exiting Socket#36963566::Socket() 
+System.Net.Sockets Verbose: 0 : [13156] Socket#36963566::Connect(127.0.0.1:9121#16786398)
+System.Net.Sockets Verbose: 0 : [15912] Socket#65370760::Socket()
+System.Net.Sockets Verbose: 0 : [15912] Exiting Socket#65370760::Socket() 
+System.Net.Sockets Information: 0 : [13156] Socket#36963566 - Created connection from 127.0.0.1:62093 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [13156] Exiting Socket#36963566::Connect() 
+System.Net.Sockets Verbose: 0 : [13156] Socket#36963566::Send()
+System.Net.Sockets Verbose: 0 : [13156] Data from Socket#36963566::Send
+System.Net.Sockets Verbose: 0 : [13156] 00000000 : 52 6F 79 61 6C 3A 20 73-64 66 61 73 66 61 73 64 : Royal: sdfasfasd
+System.Net.Sockets Verbose: 0 : [13156] 00000010 : 66 61 73 64 66 61 73 64-0A                      : fasdfasd.
+System.Net.Sockets Verbose: 0 : [13156] Exiting Socket#36963566::Send() 	-> Int32#25
+System.Net.Sockets Information: 0 : [15912] Socket#65370760 - Accepted connection from 127.0.0.1:62093 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [15912] Exiting Socket#65429669::Accept() 	-> Socket#65370760
+System.Net.Sockets Verbose: 0 : [15912] TcpClient#62955487::TcpClient(Socket#65370760)
+System.Net.Sockets Verbose: 0 : [15912] Exiting TcpClient#62955487::TcpClient() 
+System.Net.Sockets Verbose: 0 : [15912] Exiting TcpListener#9779853::AcceptTcpClient() 	-> TcpClient#62955487
+System.Net.Sockets Verbose: 0 : [15912] TcpClient#62955487::GetStream()
+System.Net.Sockets Verbose: 0 : [15912] Exiting TcpClient#62955487::GetStream() 	-> NetworkStream#31038138
+System.Net.Sockets Verbose: 0 : [15912] Socket#65370760::Receive()
+System.Net.Sockets Verbose: 0 : [15912] Data from Socket#65370760::Receive
+System.Net.Sockets Verbose: 0 : [15912] 00000000 : 52 6F 79 61 6C 3A 20 73-64 66 61 73 66 61 73 64 : Royal: sdfasfasd
+System.Net.Sockets Verbose: 0 : [15912] 00000010 : 66 61 73 64 66 61 73 64-0A                      : fasdfasd.
+System.Net.Sockets Verbose: 0 : [15912] Exiting Socket#65370760::Receive() 	-> Int32#25
+System.Net.Sockets Verbose: 0 : [15912] TcpListener#9779853::AcceptTcpClient()
+System.Net.Sockets Verbose: 0 : [15912] Socket#65429669::Accept()
+System.Net.Sockets Verbose: 0 : [13156] Socket#25474675::Socket(AddressFamily#2)
+System.Net.Sockets Verbose: 0 : [13156] Exiting Socket#25474675::Socket() 
+System.Net.Sockets Verbose: 0 : [13156] Socket#25474675::Connect(127.0.0.1:9121#16786398)
+System.Net.Sockets Information: 0 : [13156] Socket#25474675 - Created connection from 127.0.0.1:62094 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [13156] Exiting Socket#25474675::Connect() 
+System.Net.Sockets Verbose: 0 : [13156] Socket#25474675::Send()
+System.Net.Sockets Verbose: 0 : [13156] Data from Socket#25474675::Send
+System.Net.Sockets Verbose: 0 : [13156] 00000000 : 52 6F 79 61 6C 3A 20 61-73 64 66 73 61 64 66 61 : Royal: asdfsadfa
+System.Net.Sockets Verbose: 0 : [15912] Socket#64604114::Socket()
+System.Net.Sockets Verbose: 0 : [15912] Exiting Socket#64604114::Socket() 
+System.Net.Sockets Information: 0 : [15912] Socket#64604114 - Accepted connection from 127.0.0.1:62094 to 127.0.0.1:9121.
+System.Net.Sockets Verbose: 0 : [15912] Exiting Socket#65429669::Accept() 	-> Socket#64604114
+System.Net.Sockets Verbose: 0 : [15912] TcpClient#31523018::TcpClient(Socket#64604114)
+System.Net.Sockets Verbose: 0 : [15912] Exiting TcpClient#31523018::TcpClient() 
+System.Net.Sockets Verbose: 0 : [15912] Exiting TcpListener#9779853::AcceptTcpClient() 	-> TcpClient#31523018
+System.Net.Sockets Verbose: 0 : [15912] TcpClient#31523018::GetStream()
+System.Net.Sockets Verbose: 0 : [15912] Exiting TcpClient#31523018::GetStream() 	-> NetworkStream#17375337
+System.Net.Sockets Verbose: 0 : [15912] Socket#64604114::Receive()
+System.Net.Sockets Verbose: 0 : [15912] Data from Socket#64604114::Receive
+System.Net.Sockets Verbose: 0 : [15912] 00000000 : 52 6F 79 61 6C 3A 20 61-73 64 66 73 61 64 66 61 : Royal: asdfsadfa
+System.Net.Sockets Verbose: 0 : [15912] 00000010 : 73 64 66 61 73 64 66 0A-                        : sdfasdf.
+System.Net.Sockets Verbose: 0 : [15912] Exiting Socket#64604114::Receive() 	-> Int32#24
+System.Net.Sockets Verbose: 0 : [13156] 00000010 : 73 64 66 61 73 64 66 0A-                        : sdfasdf.
+System.Net.Sockets Verbose: 0 : [13156] Exiting Socket#25474675::Send() 	-> Int32#24
+System.Net.Sockets Verbose: 0 : [15912] TcpListener#9779853::AcceptTcpClient()
+System.Net.Sockets Verbose: 0 : [15912] Socket#65429669::Accept()

@@ -1,6 +1,6 @@
 ﻿namespace IMClient
 {
-    partial class Form1
+    partial class ChatAlgorithm
     {
         /// <summary>
         /// Required designer variable.
